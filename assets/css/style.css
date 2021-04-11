@@ -127,5 +127,35 @@ h1, h2{
 #center-about{
     width: 33%;
     margin:0 auto;
-    padding-top: 30px;
+    background-color:green;
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-header{
+    width:60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px ;
+}
+
+.right-about-header{
+    width:60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px ;
+}
+
+.right-about-header h2{
+    text-align: right;
+}
+
+.right-about-header p{
+    text-align: right;
 }
